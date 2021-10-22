@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@600&family=Righteous&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+
+.menu {
+  text-align: center;
+  background-color: rgb(88, 88, 88);
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+#header,
+#a {
+  color: yellow;
+  font-family: "Righteous", cursive;
+}
+
+#a {
+  padding: 7px;
+  border: 1px yellow solid;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to right, #7927b2, #fb3182);
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.languages {
+  border-radius: 20px;
+  background-color: white;
+  width: 310px;
+  background: radial-gradient(closest-side at 50% 40%, gold, whitesmoke);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.bodyimg {
+  font-family: "Acme", sans-serif;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#img {
+  width: 100%;
+}
